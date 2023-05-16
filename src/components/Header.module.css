@@ -1,0 +1,9 @@
+.upper{
+    text-align: center;
+    background-color: rgb(36, 176, 132);
+    height: 70px;
+    padding: 10px;
+    font-style: italic;
+    font-weight: bolder;
+    box-shadow: 3px 0px 5px 7px rgba(0, 0, 0 , 0.7);
+}

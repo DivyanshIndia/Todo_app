@@ -1,0 +1,14 @@
+.fix{
+    font-style: italic;
+    display: flex;
+}
+
+.del{
+    font-style: italic;
+    font-weight: bold;
+    background: rgb(102, 19, 19);
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    margin : 10px  10px 0 10px;
+}
