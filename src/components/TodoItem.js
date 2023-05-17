@@ -7,9 +7,15 @@ const TodoItem = (props) => {
   };
   return (
     <React.Fragment>
-      <div className={styles.fix}>
-        <h3 >{props.item}</h3>
-        <button className={styles.del} onClick={onClickHandler}>Delete</button>
+      <div className={styles.card}>
+        <div className={styles.cardRow}>
+          <div >
+            <p>{props.item[1]}</p>
+            <h3>{props.item[0]}</h3>
+            <button className={styles.del} onClick={onClickHandler}>Delete</button>
+            <hr></hr>
+          </div>
+        </div>
       </div>
     </React.Fragment>
   );
