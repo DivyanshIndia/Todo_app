@@ -15,12 +15,13 @@ const Input = () => {
 
   const setDate = () => {
     const date = new Date();
-   const year = String(date.getFullYear());
-   const month = String(date.getMonth() + 1).padStart(2, '0');
-   const day = String(date.getDay()).padStart(2, '0');
+  //  const year = String(date.getFullYear());
+  //  const month = String(date.getMonth() + 1).padStart(2, '0');
+  //  const day = String(date.getDay()).padStart(2, '0');
 
-   const formattedDate = `${year}-${month}-${day}`;
-   return formattedDate;
+
+  //  const formattedDate = `${year}-${month}-${day}`;
+   return date.toDateString();
 
   };
 
